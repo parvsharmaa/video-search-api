@@ -42,6 +42,12 @@ Endpoint: `GET /api/videos/search`
 - `page` (optional): Page number for pagination (optional, default: 1)
 - `limit` (optional): Number of results per page (optional, default: 10)
 
+### Request Example
+
+   ```sh
+   GET api/videos/search?title=promise&description=smartest&tags=thriller,action&page=1&limit=10
+   ```
+
 ## Features
 
 - `Database - NoSQL`
