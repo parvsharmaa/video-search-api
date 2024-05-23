@@ -2,6 +2,7 @@ import mongoose from 'mongoose';
 
 const { Schema } = mongoose;
 
+// define video schema
 const videoSchema = new Schema(
   {
     id: {

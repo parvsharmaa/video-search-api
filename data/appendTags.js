@@ -37,7 +37,8 @@ function getRandomGenres(genreKeys, count) {
   for (let i = 0; i < count; i++) {
     const randomIndex = Math.floor(Math.random() * genreKeys.length);
     randomGenres.push(parseInt(genreKeys[randomIndex]));
-    genreKeys.splice(randomIndex, 1); // Remove the selected genre to avoid duplicates
+    // Remove the selected genre to avoid duplicates
+    genreKeys.splice(randomIndex, 1);
   }
   return randomGenres;
 }

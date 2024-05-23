@@ -21,6 +21,8 @@
 
 ## Usage
 
+Server expoosed on: http://localhost:3000
+
 ### Search Videos
 
 Endpoint: `GET /api/videos/search`
@@ -41,6 +43,10 @@ Endpoint: `GET /api/videos/search`
 - `limit` (optional): Number of results per page (optional, default: 10)
 
 ## Features
+
+- `Database - NoSQL`
+
+  Uses MongoDB database to store videos data. Implements indexing for optimized search query results
 
 - `Rate Limiting`
 
