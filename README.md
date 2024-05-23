@@ -30,7 +30,7 @@ Endpoint: `GET /api/videos/search`
 - `GET /api/videos/search?title=someTitle`
 - `GET /api/videos/search?tags=tag1,tag2`
 - `GET /api/videos/search?description=someDescription`
-- `GET /api/videos/search?title=someTitle&tags=tag1,tag2&description=someDescription&page=1&limit=10`
+- `GET /api/videos/search?title=someTitle&tags=tag1&description=someDescription&page=1&limit=10`
 
 ### Query Parameters:
 
