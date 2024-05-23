@@ -37,8 +37,8 @@ Endpoint: `GET /api/videos/search`
 - `title` (optional): Search by video title.
 - `description` (optional): Search by video description.
 - `tags` (optional): Comma-separated list of tags to search by.
-- `page` Page number for pagination (optional, default: 1)
-- `limit` Number of results per page (optional, default: 10)
+- `page` (optional): Page number for pagination (optional, default: 1)
+- `limit` (optional): Number of results per page (optional, default: 10)
 
 ## Features
 
