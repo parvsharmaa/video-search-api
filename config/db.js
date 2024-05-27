@@ -1,7 +1,6 @@
 import mongoose from 'mongoose';
 import { MONGO_URI } from '../services/const.js';
 
-// Establish the connection to Database
 const connectDB = async () => {
   try {
     await mongoose.connect(MONGO_URI);

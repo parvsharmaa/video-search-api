@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 const { Schema } = mongoose;
 
-// define video schema
+// Define video schema
 const videoSchema = new Schema(
   {
     id: {
@@ -14,6 +14,7 @@ const videoSchema = new Schema(
     adult: {
       type: Boolean,
       required: true,
+      default: false,
     },
     title: {
       type: String,

@@ -6,7 +6,7 @@ import { GENRE_TAGS } from '../services/const.js';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const dataPath = path.join(__dirname, './DataSet.json');
+const dataPath = path.join(__dirname, './dataset.json');
 const data = JSON.parse(readFileSync(dataPath, 'utf8'));
 
 // Define a function to generate tags based on the video details
